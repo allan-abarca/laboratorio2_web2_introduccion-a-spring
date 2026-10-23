@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SOLID - L</title>
+</head>
+<body>
+    <nav>
+        <a href="/s">S</a> |
+        <a href="/o">O</a> |
+        <a href="/l">L</a> |
+        <a href="/i">I</a> |
+        <a href="/d">D</a>
+    </nav>
+
+    <h1>L - Principio de Sustitución de Liskov (Liskov Substitution)</h1>
+
+    <p>Este principio indica que una clase hija debe poder usarse en lugar de su clase padre sin que el programa se comporte de forma incorrecta. La clase hija debe respetar el comportamiento que promete la clase padre.</p>
+    <p>Por ejemplo, si existe una clase Ave con el método volar(), crear una clase Pingüino que herede de Ave rompería el principio, porque un pingüino no vuela y el programa fallaría al pedirle que lo haga.</p>
+</body>
+</html>

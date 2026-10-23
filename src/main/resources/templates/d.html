@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SOLID - D</title>
+</head>
+<body>
+    <nav>
+        <a href="/s">S</a> |
+        <a href="/o">O</a> |
+        <a href="/l">L</a> |
+        <a href="/i">I</a> |
+        <a href="/d">D</a>
+    </nav>
+
+    <h1>D - Principio de Inversión de Dependencias (Dependency Inversion)</h1>
+
+    <p>Este principio dice que las clases de alto nivel no deben depender de clases concretas de bajo nivel, sino de abstracciones, como interfaces. Así se reduce el acoplamiento y el código es más fácil de cambiar y de probar.</p>
+    <p>Por ejemplo, un servicio que envía notificaciones no debería depender directamente de una clase que envía correos, sino de una interfaz Notificador. De esa forma se puede cambiar a mensajes de texto sin tocar el servicio. Spring aplica esta idea con la inyección de dependencias.</p>
+</body>
+</html>

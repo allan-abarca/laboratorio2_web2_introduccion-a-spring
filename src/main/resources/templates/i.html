@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SOLID - I</title>
+</head>
+<body>
+    <nav>
+        <a href="/s">S</a> |
+        <a href="/o">O</a> |
+        <a href="/l">L</a> |
+        <a href="/i">I</a> |
+        <a href="/d">D</a>
+    </nav>
+
+    <h1>I - Principio de Segregación de Interfaces (Interface Segregation)</h1>
+
+    <p>Este principio establece que es mejor tener varias interfaces pequeñas y específicas que una sola interfaz grande y general. Así, ninguna clase se ve obligada a implementar métodos que no necesita.</p>
+    <p>Por ejemplo, una interfaz Trabajador con los métodos trabajar() y comer() obligaría a un robot a implementar comer(), algo que no tiene sentido. Lo correcto es separarla en dos interfaces distintas.</p>
+</body>
+</html>
